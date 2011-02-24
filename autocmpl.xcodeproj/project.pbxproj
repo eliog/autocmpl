@@ -34,6 +34,7 @@
 		4245B26B1315F25600149791 /* LookupButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupButtonController.m; sourceTree = "<group>"; };
 		4245B26D1315F2D500149791 /* LookupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupController.h; sourceTree = "<group>"; };
 		4245B26E1315F2D500149791 /* LookupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupController.m; sourceTree = "<group>"; };
+		4245B4B11316070700149791 /* LookupButtonControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupButtonControllerDelegate.h; sourceTree = "<group>"; };
 		427DD94B130F048400F1FCD3 /* autocmplAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autocmplAppDelegate.h; sourceTree = "<group>"; };
 		427DD94C130F048400F1FCD3 /* autocmplAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = autocmplAppDelegate.m; sourceTree = "<group>"; };
 		427DD94D130F048400F1FCD3 /* autocmplViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autocmplViewController.h; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 		42F7B883130F04F900ABF251 /* AutoCmpl */ = {
 			isa = PBXGroup;
 			children = (
+				4245B4B11316070700149791 /* LookupButtonControllerDelegate.h */,
 				42F7B884130F050C00ABF251 /* LookupTextFieldController.h */,
 				42F7B885130F050C00ABF251 /* LookupTextFieldController.m */,
 				42F7B91E130F0F2500ABF251 /* LookupItemListTableViewController.h */,

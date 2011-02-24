@@ -11,6 +11,8 @@
 
 @implementation LookupButtonController
 
+@synthesize delegate;
+
 -(UIButton*) button {
 	return _button;
 }
@@ -34,17 +36,21 @@
 }
 -(void) madeSelection: (NSString *) selString {
 	[super madeSelection: selString];
-	[self.button setTitle: selString forState: UIControlStateNormal];
-	[self.button setTitle: selString forState: UIControlStateApplication];
-	[self.button setTitle: selString forState: UIControlStateHighlighted];
-	[self.button setTitle: selString forState: UIControlStateReserved];
-	[self.button setTitle: selString forState: UIControlStateSelected];
-	[self.button setTitle: selString forState: UIControlStateDisabled];
-
+	[self setButtonTitle: selString];
+	[delegate itemPickedFor:self value:selString];
+}
+-(void) setButtonTitle: (NSString *) newTitle {
+	[self.button setTitle: newTitle forState: UIControlStateNormal];
+	[self.button setTitle: newTitle forState: UIControlStateApplication];
+	[self.button setTitle: newTitle forState: UIControlStateHighlighted];
+	[self.button setTitle: newTitle forState: UIControlStateReserved];
+	[self.button setTitle: newTitle forState: UIControlStateSelected];
+	[self.button setTitle: newTitle forState: UIControlStateDisabled];
+	
 }
 -(void) dealloc {
 	[self releaseButton];
-	 	[super dealloc];
+	[super dealloc];
 }
 
 @end
