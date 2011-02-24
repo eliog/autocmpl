@@ -6,10 +6,10 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "AutoCompletePopoverView.h"
+#import "LookupItemsPopoverView.h"
 
 
-@implementation AutoCompletePopoverView
+@implementation LookupItemsPopoverView
 @synthesize tableController;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

@@ -6,10 +6,10 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "AutoCompleteTableViewController.h"
-#import "AutoComplete.h"
+#import "LookupItemListTableViewController.h"
+#import "LookupTextFieldController.h"
 
-@implementation AutoCompleteTableViewController
+@implementation LookupItemListTableViewController
 
 
 #pragma mark -
@@ -68,7 +68,7 @@
 }
 */
 
--(void)setAutoComplete: (AutoComplete *) newAutoComplete;
+-(void)setAutoComplete: (LookupController *) newAutoComplete;
 {
 	 autoComplete = newAutoComplete;
 }

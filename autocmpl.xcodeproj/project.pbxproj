@@ -11,14 +11,16 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		4245B26C1315F25600149791 /* LookupButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4245B26B1315F25600149791 /* LookupButtonController.m */; };
+		4245B26F1315F2D500149791 /* LookupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4245B26E1315F2D500149791 /* LookupController.m */; };
 		427DD951130F048400F1FCD3 /* autocmplAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 427DD94C130F048400F1FCD3 /* autocmplAppDelegate.m */; };
 		427DD952130F048400F1FCD3 /* autocmplViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427DD94E130F048400F1FCD3 /* autocmplViewController.m */; };
 		427DD953130F048400F1FCD3 /* autocmplViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 427DD94F130F048400F1FCD3 /* autocmplViewController.xib */; };
 		427DD954130F048400F1FCD3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 427DD950130F048400F1FCD3 /* MainWindow.xib */; };
-		42F7B886130F050C00ABF251 /* AutoComplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7B885130F050C00ABF251 /* AutoComplete.m */; };
-		42F7B920130F0F2500ABF251 /* AutoCompleteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7B91F130F0F2500ABF251 /* AutoCompleteTableViewController.m */; };
-		42F7B92A130F130D00ABF251 /* AutoCompletePopoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F7B929130F130D00ABF251 /* AutoCompletePopoverView.xib */; };
-		42F7B92E130F134800ABF251 /* AutoCompletePopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7B92D130F134800ABF251 /* AutoCompletePopoverView.m */; };
+		42F7B886130F050C00ABF251 /* LookupTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7B885130F050C00ABF251 /* LookupTextFieldController.m */; };
+		42F7B920130F0F2500ABF251 /* LookupItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7B91F130F0F2500ABF251 /* LookupItemListTableViewController.m */; };
+		42F7B92A130F130D00ABF251 /* LookupItemsPopoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F7B929130F130D00ABF251 /* LookupItemsPopoverView.xib */; };
+		42F7B92E130F134800ABF251 /* LookupItemsPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7B92D130F134800ABF251 /* LookupItemsPopoverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,19 +30,23 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* autocmpl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autocmpl_Prefix.pch; sourceTree = "<group>"; };
+		4245B26A1315F25600149791 /* LookupButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupButtonController.h; sourceTree = "<group>"; };
+		4245B26B1315F25600149791 /* LookupButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupButtonController.m; sourceTree = "<group>"; };
+		4245B26D1315F2D500149791 /* LookupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupController.h; sourceTree = "<group>"; };
+		4245B26E1315F2D500149791 /* LookupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupController.m; sourceTree = "<group>"; };
 		427DD94B130F048400F1FCD3 /* autocmplAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autocmplAppDelegate.h; sourceTree = "<group>"; };
 		427DD94C130F048400F1FCD3 /* autocmplAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = autocmplAppDelegate.m; sourceTree = "<group>"; };
 		427DD94D130F048400F1FCD3 /* autocmplViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autocmplViewController.h; sourceTree = "<group>"; };
 		427DD94E130F048400F1FCD3 /* autocmplViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = autocmplViewController.m; sourceTree = "<group>"; };
 		427DD94F130F048400F1FCD3 /* autocmplViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = autocmplViewController.xib; sourceTree = "<group>"; };
 		427DD950130F048400F1FCD3 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		42F7B884130F050C00ABF251 /* AutoComplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoComplete.h; sourceTree = "<group>"; };
-		42F7B885130F050C00ABF251 /* AutoComplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoComplete.m; sourceTree = "<group>"; };
-		42F7B91E130F0F2500ABF251 /* AutoCompleteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteTableViewController.h; sourceTree = "<group>"; };
-		42F7B91F130F0F2500ABF251 /* AutoCompleteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteTableViewController.m; sourceTree = "<group>"; };
-		42F7B929130F130D00ABF251 /* AutoCompletePopoverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoCompletePopoverView.xib; sourceTree = "<group>"; };
-		42F7B92C130F134800ABF251 /* AutoCompletePopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompletePopoverView.h; sourceTree = "<group>"; };
-		42F7B92D130F134800ABF251 /* AutoCompletePopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompletePopoverView.m; sourceTree = "<group>"; };
+		42F7B884130F050C00ABF251 /* LookupTextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupTextFieldController.h; sourceTree = "<group>"; };
+		42F7B885130F050C00ABF251 /* LookupTextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupTextFieldController.m; sourceTree = "<group>"; };
+		42F7B91E130F0F2500ABF251 /* LookupItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupItemListTableViewController.h; sourceTree = "<group>"; };
+		42F7B91F130F0F2500ABF251 /* LookupItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupItemListTableViewController.m; sourceTree = "<group>"; };
+		42F7B929130F130D00ABF251 /* LookupItemsPopoverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LookupItemsPopoverView.xib; sourceTree = "<group>"; };
+		42F7B92C130F134800ABF251 /* LookupItemsPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupItemsPopoverView.h; sourceTree = "<group>"; };
+		42F7B92D130F134800ABF251 /* LookupItemsPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupItemsPopoverView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* autocmpl-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "autocmpl-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,13 +128,17 @@
 		42F7B883130F04F900ABF251 /* AutoCmpl */ = {
 			isa = PBXGroup;
 			children = (
-				42F7B884130F050C00ABF251 /* AutoComplete.h */,
-				42F7B885130F050C00ABF251 /* AutoComplete.m */,
-				42F7B91E130F0F2500ABF251 /* AutoCompleteTableViewController.h */,
-				42F7B91F130F0F2500ABF251 /* AutoCompleteTableViewController.m */,
-				42F7B929130F130D00ABF251 /* AutoCompletePopoverView.xib */,
-				42F7B92C130F134800ABF251 /* AutoCompletePopoverView.h */,
-				42F7B92D130F134800ABF251 /* AutoCompletePopoverView.m */,
+				42F7B884130F050C00ABF251 /* LookupTextFieldController.h */,
+				42F7B885130F050C00ABF251 /* LookupTextFieldController.m */,
+				42F7B91E130F0F2500ABF251 /* LookupItemListTableViewController.h */,
+				42F7B91F130F0F2500ABF251 /* LookupItemListTableViewController.m */,
+				42F7B929130F130D00ABF251 /* LookupItemsPopoverView.xib */,
+				42F7B92C130F134800ABF251 /* LookupItemsPopoverView.h */,
+				42F7B92D130F134800ABF251 /* LookupItemsPopoverView.m */,
+				4245B26A1315F25600149791 /* LookupButtonController.h */,
+				4245B26B1315F25600149791 /* LookupButtonController.m */,
+				4245B26D1315F2D500149791 /* LookupController.h */,
+				4245B26E1315F2D500149791 /* LookupController.m */,
 			);
 			path = AutoCmpl;
 			sourceTree = "<group>";
@@ -184,7 +194,7 @@
 			files = (
 				427DD953130F048400F1FCD3 /* autocmplViewController.xib in Resources */,
 				427DD954130F048400F1FCD3 /* MainWindow.xib in Resources */,
-				42F7B92A130F130D00ABF251 /* AutoCompletePopoverView.xib in Resources */,
+				42F7B92A130F130D00ABF251 /* LookupItemsPopoverView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,9 +208,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				427DD951130F048400F1FCD3 /* autocmplAppDelegate.m in Sources */,
 				427DD952130F048400F1FCD3 /* autocmplViewController.m in Sources */,
-				42F7B886130F050C00ABF251 /* AutoComplete.m in Sources */,
-				42F7B920130F0F2500ABF251 /* AutoCompleteTableViewController.m in Sources */,
-				42F7B92E130F134800ABF251 /* AutoCompletePopoverView.m in Sources */,
+				42F7B886130F050C00ABF251 /* LookupTextFieldController.m in Sources */,
+				42F7B920130F0F2500ABF251 /* LookupItemListTableViewController.m in Sources */,
+				42F7B92E130F134800ABF251 /* LookupItemsPopoverView.m in Sources */,
+				4245B26C1315F25600149791 /* LookupButtonController.m in Sources */,
+				4245B26F1315F2D500149791 /* LookupController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

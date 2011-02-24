@@ -10,7 +10,7 @@
 
 @implementation autocmplViewController
 
-@synthesize cityTextField, stateTextField;
+@synthesize cityTextField, stateTextField, button;
 
  
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -35,13 +35,19 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	_cityAutoComplete = [[AutoComplete alloc] init];
-	_stateAutoComplete = [[AutoComplete alloc] init];
+	_cityAutoComplete = [[LookupTextFieldController alloc] init];
+	_stateAutoComplete = [[LookupTextFieldController alloc] init];
+	_buttonAutoComplete = [[LookupButtonController alloc] init];
+	
 	[_cityAutoComplete setTextField: cityTextField];
 	[_cityAutoComplete setCompleteItems: [NSArray arrayWithObjects: @"Miami", @"Ft. Lauderdale", @"Boca Raton", @"Key West", @"Miami Lakes", @"Miami Gardens",nil]];
 	
 	[_stateAutoComplete setTextField: stateTextField];
 	[_stateAutoComplete setCompleteItems: [NSArray arrayWithObjects: @"Florida", @"New York", @"California", @"North Carolina", @"South Carolina", @"Georgia",nil]];
+	
+	[_buttonAutoComplete setButton:self.button];
+	[_buttonAutoComplete setCompleteItems: [NSArray arrayWithObjects: @"Item 1", @"Item 2", @"Item 3",nil]];
+	
 }
  
 

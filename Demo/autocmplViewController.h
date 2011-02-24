@@ -7,15 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AutoComplete.h"
+#import "LookupTextFieldController.h"
+#import "LookupButtonController.h"
 
 @interface autocmplViewController : UIViewController {
 	UITextField* cityTextField;
 	UITextField* stateTextField;
-	AutoComplete* _cityAutoComplete;
-	AutoComplete* _stateAutoComplete;
+	UIButton* button;
+	LookupTextFieldController* _cityAutoComplete;
+	LookupTextFieldController* _stateAutoComplete;
+	LookupButtonController* _buttonAutoComplete;
 }
 @property (nonatomic,retain) IBOutlet UITextField* cityTextField;
 @property (nonatomic,retain) IBOutlet UITextField* stateTextField;
+@property (nonatomic,retain) IBOutlet UIButton*    button;
 @end
 

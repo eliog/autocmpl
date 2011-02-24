@@ -7,17 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-@class AutoComplete;
+@class LookupController;
 
 
-@interface AutoCompleteTableViewController : UITableViewController {
+@interface LookupItemListTableViewController : UITableViewController {
 	NSArray* items;
-	AutoComplete* autoComplete;
+	LookupController* autoComplete;
 }
 
 
 
 
 -(void)setItems:(NSArray *) newItems;
--(void)setAutoComplete: (AutoComplete *) newAutoComplete;
+-(void)setAutoComplete: (LookupController *) newAutoComplete;
 @end
